@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".StockHome">
+
+    <ImageButton
+        android:id="@+id/monitor_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_monitor"
+        app:layout_constraintEnd_toStartOf="@+id/casing_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coolingfan_btn" />
+
+    <ImageButton
+        android:id="@+id/coolingfan_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_fan"
+        app:layout_constraintEnd_toStartOf="@+id/casing_btn"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vga_btn" />
+
+    <ImageButton
+        android:id="@+id/vga_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_vga"
+        app:layout_constraintEnd_toStartOf="@+id/casing_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motherbord_btn" />
+
+    <ImageButton
+        android:id="@+id/motherbord_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/icon_motherboard"
+        app:layout_constraintEnd_toStartOf="@+id/casing_btn"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/casing_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_casin"
+        app:layout_constraintEnd_toStartOf="@+id/other_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/monitor_btn"
+        app:layout_constraintTop_toBottomOf="@+id/dvdrom_btn" />
+
+    <ImageButton
+        android:id="@+id/dvdrom_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_dvdrom"
+        app:layout_constraintEnd_toStartOf="@+id/other_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/monitor_btn"
+        app:layout_constraintTop_toBottomOf="@+id/ram_btn" />
+
+    <ImageButton
+        android:id="@+id/ram_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_ram"
+        app:layout_constraintEnd_toStartOf="@+id/other_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/monitor_btn"
+        app:layout_constraintTop_toBottomOf="@+id/processor_btn" />
+
+    <ImageButton
+        android:id="@+id/processor_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/icon_processor"
+        app:layout_constraintEnd_toStartOf="@+id/other_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/monitor_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/other_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_other"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casing_btn"
+        app:layout_constraintTop_toBottomOf="@+id/cable_btn" />
+
+    <ImageButton
+        android:id="@+id/cable_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_cable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casing_btn"
+        app:layout_constraintTop_toBottomOf="@+id/powersupply_btn" />
+
+    <ImageButton
+        android:id="@+id/powersupply_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_powersupply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casing_btn"
+        app:layout_constraintTop_toBottomOf="@+id/harddisk_btn" />
+
+    <ImageButton
+        android:id="@+id/harddisk_btn"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/icon_harddisk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/casing_btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/stock_header"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

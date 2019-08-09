@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PC_CARE</string>
+    <string name="stock_header">Stock</string>
+    <string name="list_layout_edit_btn">Edit</string>
+    <string name="list_layout_pull_btn">Pull</string>
+    <string name="list_layout_push_btn">Push</string>
+    <string name="additem_header">Add Item</string>
+    <string name="item_code_hint">Item code</string>
+    <string name="item_name_hint">Item name</string>
+    <string name="item_brand_hint">Brand</string>
+    <string name="item_type_hint">Item type</string>
+    <string name="add_item_btn">Add</string>
+    <string name="edititem_header">Edit Item</string>
+    <string name="update_btn_txt">Update</string>
+    <string name="delete_btn_txt">Delete</string>
+    <string name="item_discription">Item Description</string>
+    <string name="item_availability">Availability</string>
+    <string name="itemcode">Item code :</string>
+    <string name="Item_model">Model :</string>
+    <string name="availability">Availability :</string>
+    <string name="brand">Brand :</string>
+    <string name="addnumber">+</string>
+    <string name="removenumber">-</string>
+    <string name="model_hint">Model</string>
+    <string name="availability_hint">Availability</string>
+    <string name="qty">Qty :</string>
+</resources>
